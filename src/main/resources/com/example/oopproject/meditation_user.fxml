@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="410.0" prefWidth="680.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.meditation_user">
+   <children>
+      <ImageView fitHeight="413.0" fitWidth="362.0" layoutX="321.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meditation1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="418.0" fitWidth="650.0" layoutX="-4.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@w9.png" />
+         </image>
+      </ImageView>
+      <HBox prefHeight="60.0" prefWidth="680.0">
+         <children>
+            <Label prefHeight="62.0" prefWidth="683.0" style="-fx-background-color: grey;" text="                                      USER'S MEDITATION SECTION">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Button fx:id="bt_1" layoutX="14.0" layoutY="149.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="254.0" style="-fx-background-color: #ff6a4e;" text="MEDITATION MINUTES PER DAY:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt_2" layoutX="14.0" layoutY="201.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="316.0" style="-fx-background-color: #ff6a4e;" text="MEDITATION FREQUENCY(SESSIONS PER WEEK)">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt_3" defaultButton="true" layoutX="14.0" layoutY="253.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="254.0" style="-fx-background-color: #ff6a4e;" text="MEDITATION TECHNIQUE:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt_4" layoutX="9.0" layoutY="306.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="325.0" style="-fx-background-color: #ff6a4e;" text="MEDITATION PROGRESS(SESSIONS COMPLETED):">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="lb_2" layoutX="358.0" layoutY="206.0" prefHeight="17.0" prefWidth="181.0" style="-fx-background-color: green;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_3" layoutX="357.0" layoutY="258.0" prefHeight="17.0" prefWidth="188.0" style="-fx-background-color: green;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_4" layoutX="358.0" layoutY="311.0" prefHeight="17.0" prefWidth="195.0" style="-fx-background-color: green;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="419.0" layoutY="374.0" text="TO GO BACK...">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="bt_press" layoutX="502.0" layoutY="371.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="145.0" style="-fx-background-color: TRANSPARENT;" text="PRESS" textFill="#3604ff" underline="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="16.0" layoutY="68.0" prefHeight="22.0" prefWidth="432.0" style="-fx-background-color: grey;" text="PRESS THE FOLLOWING TO SEE REQUIRED ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="101.0" prefHeight="22.0" prefWidth="265.0" style="-fx-background-color: grey;" text="MEDITATION INFORMATION:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_1" layoutX="357.0" layoutY="154.0" prefHeight="17.0" prefWidth="188.0" style="-fx-background-color: green;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

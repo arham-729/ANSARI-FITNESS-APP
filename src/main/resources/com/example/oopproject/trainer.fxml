@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="407.0" prefWidth="680.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopproject.trainer">
+    <children>
+      <ImageView fitHeight="407.0" fitWidth="707.0" layoutX="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@one.png" />
+         </image>
+      </ImageView>
+        <Label layoutX="40.0" layoutY="54.0" style="-fx-background-color: green;" text="Select User:">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="18.0" />
+            </font>
+        </Label>
+        <ListView fx:id="userList" layoutX="173.0" layoutY="54.0" prefHeight="132.0" prefWidth="252.0" style="-fx-background-color: grey;" />
+
+        <Label layoutX="42.0" layoutY="209.0" style="-fx-background-color: yellow;" text="User: " textFill="#111a13">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="userLabel" layoutX="173.0" layoutY="209.0" prefHeight="22.0" prefWidth="205.0" style="-fx-background-color: orange;" textFill="white">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="40.0" layoutY="240.0" style="-fx-background-color: yellow;" text="Weight: " textFill="#1e0d0d">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="weightLabel" layoutX="173.0" layoutY="240.0" prefHeight="22.0" prefWidth="185.0" style="-fx-background-color: orange;" textFill="white">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="42.0" layoutY="270.0" style="-fx-background-color: yellow;" text="Height: " textFill="#322222">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="heightLabel" layoutX="173.0" layoutY="270.0" prefHeight="22.0" prefWidth="138.0" style="-fx-background-color: orange;" textFill="white">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="42.0" layoutY="303.0" style="-fx-background-color: yellow;" text="ADVICE:" textFill="#110c0c">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="advice" layoutX="173.0" layoutY="303.0" prefHeight="22.0" prefWidth="442.0" style="-fx-background-color: orange;" textFill="white">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="10.0" />
+            </font>
+        </Label>
+      <Button layoutX="466.0" layoutY="131.0" mnemonicParsing="false" onAction="#showUserData" style="-fx-background-color: green;" text="PRESS FOR DETAILS:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="heightLabel1" layoutX="378.0" layoutY="361.0" prefHeight="22.0" prefWidth="138.0" style="-fx-background-color: grey;" text="TO GO BACK...">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="bt_press" layoutX="516.0" layoutY="358.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="66.0" style="-fx-background-color: TRANSPARENT;" text="PRESS!" textFill="#580dee" underline="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="userLabel1" layoutX="223.0" layoutY="14.0" prefHeight="28.0" prefWidth="271.0" style="-fx-background-color: grey;" text="TRAINER'S SECTION" textFill="#0d0c0c">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="105.0" fitWidth="116.0" layoutX="511.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@training-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="166.0" layoutX="549.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@three.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
